@@ -18,7 +18,7 @@ resource "docker_image" "nginx" {
 
 variable "container_name" {
   description = "tutorial variable"
-  type        = "string"
+  type        = string
   default     = "ExampleNginxContainer"
 }
 
